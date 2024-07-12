@@ -1,0 +1,210 @@
+/************************** 总容器 ************************/
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+/************************** header ***********************/
+.wrapper header {
+    width: 100%;
+    height: 10vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper header .left {
+    width: 2vw;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 1vw;
+}
+
+.wrapper header .name {
+    width: 40vw;
+    justify-items: center;
+    justify-content: center;
+    padding-left: 45vw;
+}
+
+.wrapper header .right {
+    width: 5vw;
+    display: flex;
+    text-align: right;
+}
+
+.wrapper header .right i {
+    font-size: 20px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+/************************** 聊天部分 ***********************/
+.wrapper .chat {
+    width: 100%;
+    height: 90%;
+    background-color: #EEEEEE;
+    border-top: solid 1px #cccccc;
+}
+
+.wrapper .chat li {
+    border-bottom: solid 10px #EEEEEE;
+}
+
+.wrapper .chat .time {
+    width: 100%;
+    height: 5vw;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 2vw;
+    color: #555555;
+}
+
+.wrapper .chat .message {
+    width: 100%;
+    height: 5vw;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 2vw;
+    color: #555555;
+}
+
+.wrapper .chat img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.wrapper .chat .content-zuo {
+    width: 100%;
+    display: flex;
+    padding-top: 1vw;
+}
+
+.wrapper .chat .content-zuo .head-zuo {
+    padding-left: 1vw;
+}
+
+.wrapper .chat .content-zuo .block-zuo {
+    background-color: white;
+    margin-left: 2vw;
+    padding-left: 2vw;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    border-radius: 5px;
+}
+
+.wrapper .chat .content-zuo .block-zuo p {
+    font-size: 15px;
+    align-items: center;
+}
+
+
+.wrapper .chat .content-you {
+    width: 100%;
+    display: flex;
+    padding-top: 1vw;
+    justify-content: right;
+}
+
+.wrapper .chat .content-you .head-you {
+    padding-right: 1vw;
+}
+
+.wrapper .chat .content-you .block-you {
+    background-color: lightskyblue;
+    margin-top: 1vw;
+    margin-right: 2vw;
+    padding-left: 2vw;
+    padding-top: 1vw;
+    border-radius: 5px;
+}
+
+.wrapper .chat .content-you .block-you p {
+    font-size: 15px;
+    align-items: center;
+}
+
+.wrapper .chat .content-you .block-you-zhuanzhang {
+    width: 38vw;
+    height: 12vw;
+    background-color: #e8a010;
+    color: white;
+    display: flex;
+    border-radius: 2px;
+    margin-right: 2vw;
+}
+
+.wrapper .chat .content-you .block-you-zhuanzhang .icon {
+    padding-top: 2.8vw;
+    padding-left: 2vw;
+}
+
+.wrapper .chat .content-you .block-you-zhuanzhang .money {
+    padding-top: 2.5vw;
+    padding-left: 1vw;
+}
+
+/************************* footer部分**********************/
+.wrapper .footer {
+    width: 100%;
+    height: 25vw;
+    border-top: solid 1px #cccccc;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper .footer .shuru {
+    width: 100%;
+    height: 10vw;
+    display: flex;
+}
+
+.wrapper .footer .shuru .icon-left {
+    width: 5vw;
+    height: 5vw;
+    padding-left: 2vw;
+    padding-top: 2vw;
+}
+
+.wrapper .footer .shuru .shurukuang {
+    width: 80vw;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.wrapper .footer .shuru .icon-right {
+    display: flex;
+    text-align: right;
+    padding-top: 2vw;
+    padding-right: 2vw;
+}
+
+.wrapper .gongneng {
+    width: 100%;
+    height: 15vw;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper .footer li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #555555;
+    padding-top: 2vw;
+}
+
+.wrapper .footer li i {
+    font-size: 30px;
+}
+
+.wrapper .footer li p {
+    font-size: 10px;
+    padding-top: 1vw;
+}

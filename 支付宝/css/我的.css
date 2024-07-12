@@ -1,0 +1,111 @@
+/************************** 总容器 ************************/
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+/************************** header ***********************/
+.wrapper header {
+    width: 100%;
+    height: 7vw;
+    background-color: #1b82d2;
+    color: white;
+    display: flex;
+}
+
+.wrapper header i {
+    font-size: 20px;
+    padding-top: 3vw;
+}
+
+/************************** 我的部分 ***********************/
+.wrapper .my {
+    width: 100%;
+    height: 17vw;
+    background-color: #1b82d2;
+    color: white;
+}
+
+.wrapper .my li {
+    width: 100%;
+    display: flex;
+}
+
+.wrapper .my li img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    padding-left: 2vw;
+}
+
+.wrapper .my li i {
+    padding-left: 60vw;
+    padding-top: 5vw;
+}
+
+.wrapper .my li .name {
+    font-size: 20px;
+    padding-top: 2vw;
+    padding-left: 2vw;
+}
+
+.wrapper .my li .phone {
+    font-size: 12px;
+    padding-top: 1vw;
+    padding-left: 2vw;
+    color: #bbbbbb;
+}
+
+/************************** 内容部分 ***********************/
+.wrapper .content {
+    width: 100%;
+    border-top: solid 25px #EEEEEE;
+    background-color: #EEEEEE;
+}
+
+.wrapper .content li {
+    height: 10vw;
+    display: flex;
+    border-bottom: solid 1px #EEEEEE;
+    background-color: white;
+}
+
+.wrapper .content li i {
+    font-size: 25px;
+    padding-top: 3vw;
+    padding-left: 3vw;
+}
+
+.wrapper .content li .body {
+    display: flex;
+    padding-left: 3vw;
+    padding-top: 3vw;
+    font-size: 15px;
+}
+
+.wrapper .content li .icon-zhankaiyou {
+    font-size: 15px;
+    color: #666666;
+}
+
+/************************* footer部分**********************/
+.wrapper .footer {
+    width: 100%;
+    height: 10vw;
+    border-top: solid 1px #DDD;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper .footer li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}

@@ -1,0 +1,191 @@
+/************************** 总容器 ************************/
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+/************************** header ***********************/
+.wrapper header {
+    width: 100%;
+    height: 10vw;
+    background-color: #1b82d2;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper header .icon-left{
+    width: 5vw;
+    height: 5vw;
+    padding: 2vw;
+}
+
+.wrapper header .location-text{
+    font-size: 15px;
+}
+
+.wrapper header .weather{
+    font-size: 10px;
+    color: #DDDDDD;
+}
+
+.search {
+    width: 100%;
+    height: 5vw;
+}
+
+input[type="text"] {
+    width: 73%;
+    height: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 12%;
+    height: 25px;
+    background-color: #1772b9;
+    color: white;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/********************** 资产部分 ************************/
+.wrapper .content1 {
+    width: 100%;
+    height: 13vw;
+    background-color: #1b82d2;
+    display: flex;
+}
+
+.wrapper .content1 li {
+    width: 50vw;
+    height: 12vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #DDDDDD;
+    border-right: solid 1px #bbbbbb;
+}
+
+.wrapper .content li:last-child {
+    border-right: none;
+}
+
+.wrapper .content1 li .title {
+    font-size: 12px;
+    text-align: center;
+    color: #cccccc;
+}
+
+.wrapper .content1 li .content {
+    font-size: 20px;
+    padding-top: 1vw;
+    text-align: center;
+    color: white;
+}
+
+/********************** 内容部分 ************************/
+.wrapper .content2{
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.wrapper .content2 li {
+    width: 10vw;
+    height: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px 20px 30px;
+}
+
+.wrapper .content2 li i{
+    font-size: 35px;
+    color: #1772b9;
+}
+
+.wrapper .content2 li p {
+    font-size: 12px;
+    padding-top: 1vw;
+}
+
+.wrapper .content3 {
+    width: 100%;
+    border-top: solid 25px #EEEEEE;
+}
+
+.wrapper .content3 img {
+    width: 100%;
+}
+
+.wrapper .content4 {
+    width: 100%;
+    height: 70vw;
+    border-top: solid 25px #EEEEEE;
+    background-color: #EEEEEE;
+}
+
+.wrapper .content4 li{
+    height: 25vw;
+    float: left;
+    padding-top: 3vw;
+    padding-left: 3vw;
+    border-right: solid 10px #EEEEEE;
+    border-left: solid 10px #EEEEEE;
+    background-color: white;
+}
+
+.wrapper .content4 li .title {
+    display: flex;
+    font-size: 20px;
+}
+
+.wrapper .content4 li .body {
+    width: 40vw;
+    height: 20vw;
+    display: flex;
+    padding-left: 1vw;
+}
+
+.wrapper .content4 li .body .text {
+    font-size: 12px;
+    padding-top: 2vw;
+    color: #666666;
+}
+
+.wrapper .content4 li .body .picture img{
+    width: 16vw;
+    height: 16vw;
+    padding-left: 8vw;
+}
+
+/************************* footer部分**********************/
+.wrapper .footer {
+    width: 100%;
+    height: 10vw;
+    border-top: solid 1px #DDD;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper .footer li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}

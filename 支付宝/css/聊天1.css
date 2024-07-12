@@ -1,0 +1,164 @@
+/************************** 总容器 ************************/
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+/************************** header ***********************/
+.wrapper header {
+    width: 100%;
+    height: 10vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper header .left {
+    width: 2vw;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 1vw;
+}
+
+.wrapper header .name {
+    width: 50vw;
+    justify-items: center;
+    justify-content: center;
+    padding-left: 40vw;
+}
+
+.wrapper header .right {
+    width: 3vw;
+    text-align: right;
+}
+
+.wrapper header .right i {
+    text-align: right;
+}
+
+/************************** 内容部分 ***********************/
+.wrapper .content {
+    width: 100%;
+    height: 93%;
+    background-color: #EEEEEE;
+    border-top: solid 1px #cccccc;
+}
+
+.wrapper .content li {
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vw;
+}
+
+.wrapper .content li .top {
+    display: flex;
+}
+
+.wrapper .content li .top .icon-left {
+    padding-top: 2vw;
+    padding-left: 2vw;
+}
+
+.wrapper .content li .top .top-text {
+    padding-top: 2vw;
+    padding-left: 2vw;
+}
+
+.wrapper .content li .top .top-text .top-text-title {
+    font-size: 15px;
+}
+
+.wrapper .content li .top .top-text .top-text-time {
+    font-size: 10px;
+    color: #888888;
+    padding-top: 0.5vw;
+}
+
+.wrapper .content li .top .icon-right {
+    padding-top: 2vw;
+    padding-left: 65vw;
+    color: #888888;
+}
+
+.wrapper .content li .top .icon-right i {
+    font-size: 20px;
+}
+
+.wrapper .content li .center {
+    align-items: center;
+    justify-content: center;
+
+}
+
+.wrapper .content li .center .center-title {
+    text-align: center;
+}
+
+.wrapper .content li .center .center-text {
+    font-size: 13px;
+    color: #888888;
+    padding-left: 2vw;
+    padding-top: 2vw;
+}
+
+.wrapper .content li .center .center-text-content {
+    display: flex;
+}
+
+.wrapper .content li .center .center-text-content p{
+    padding-left: 1vw;
+}
+
+.wrapper .content li .center .center-text-content p:first-child {
+    padding-left: 0;
+}
+
+.wrapper .content li .center .center-text-content button {
+    width: 13vw;
+    height: 5vw;
+    margin-left: 35vw;
+    margin-bottom: 2vw;
+    background-color: #FEEDC1;
+    border: none;
+    color: #f15a4a;
+    font-size: 13px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+.wrapper .content li .bottom {
+    display: flex;
+    padding-left: 2vw;
+    padding-bottom: 2vw;
+    font-size: 13px;
+}
+
+.wrapper .content li .bottom .icon-right i{
+    padding-left: 73vw;
+    font-size: 13px;
+    color: #888888;
+}
+
+/************************* footer部分**********************/
+.wrapper .footer {
+    width: 100%;
+    height: 10vw;
+    border-top: solid 1px #DDD;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper .footer li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}
